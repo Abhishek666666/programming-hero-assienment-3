@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fab622cd0d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar section start -->
+        <nav class="navbar navbar-expand-lg bg-primary fs-4 shadow sticky-top p-3 ">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="#">
+                    <i class="fa fa-solid h-25 w-25 fa-computer"> E-LEARNING</i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 me-auto mb-2 mb-lg-0 fw-bold d-flex justify-content-center   ">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#course">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Success">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fuq">Faq</a>
+                        </li>
+
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-primary bg-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+
+
+        <!-- navbar section end -->
+        <!-- carousel part start -->
+        <div class="carosel part-2 ">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="img-fluid" src="./assienment-3--bootstrap-responsive/images/cover/cover-2.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100
+                        m-0 text-light ">
+                            <h2 class=>Get learn new skill with Entagon <br>
+                                learning</h2>
+                            <h5> <strong>it is a long established fact that a reader will be distracted by the readable
+                                    content of
+                                    a page when looking at its layout</strong></h5>
+                            <button type="button " class="btn btn-info text-white p-2 mt-2">Let's start</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="img-fluid" src="./assienment-3--bootstrap-responsive/images/cover/cover-1.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100
+                        m-0 text-light ">
+                            <h2 class=>Get learn new skill with Entagon <br>
+                                learning</h2>
+                            <h5> <strong>it is a long established fact that a reader will be distracted by the readable
+                                    content of
+                                    a page when looking at its layout</strong></h5>
+                            <button type="button " class="btn btn-info text-white p-2 mt-2">Let's start</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img class="img-fluid" src="./assienment-3--bootstrap-responsive/images/cover/cover-3.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100
+                        m-0 text-light ">
+                            <h2 class=>Get learn new skill with Entagon <br>
+                                learning</h2>
+                            <h5> <strong>it is a long established fact that a reader will be distracted by the readable
+                                    content of
+                                    a page when looking at its layout</strong></h5>
+                            <button type="button " class="btn btn-info text-white p-2 mt-2">Let's start</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- CAROUSEL PART END -->
+        <!-- Popular courses section -->
+        <section id="course">
+            <div class="courses p-5">
+                <div class="wpart d-flex flex-column justify-content-center align-items-center">
+                    <h1>Discover our popular
+                    </h1>
+                    <h1> courses</h1>
+                    <p>lets start your journey
+                        with entagon and learn new skill and get a job.
+                    <h3>Are you ready?</h3>
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+        <div class="container">
+            <section class="container">
+                <!-- card part -->
+                <div class="card ">
+                    <div class="row  ">
+                        <!-- 1st card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-1.png"
+                                        class="img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fundamental of ui/ux design</h5>
+                                        <p class="card-text">The user experience is a broad discipline, but a proper
+                                            understanding of the fundamental concepts of UI and UX can help the UI/UX
+                                            designers in creating a user-friendly experience. .</p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2nd card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-2.png"
+                                        class="img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Javascript basic to advance</h5>
+                                        <p class="card-text">JavaScript is the world's most popular programming
+                                            language.
+                                            JavaScript is the programming language of the Web. JavaScript is easy to
+                                            learn.
+                                        </p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- card section -->
+                        </div>
+                        <!-- 3rd card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-3.png"
+                                        class="img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fullstack web development</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- card section -->
+                        </div>
+                        <!-- 4th card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-4.png"
+                                        class="img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Digital Marketing</h5>
+                                        <p class="card-text">Prepare for a new career in a high-demand field in under 6
+                                            months, no experience required. Learn job-ready skills with a Google Career
+                                            Certificate. Enroll today. Enroll now. Learn job-ready skills.</p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- card section -->
+                        </div>
+                        <!-- 5th card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-5.png"
+                                        class="img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Photography basic rule</h5>
+                                        <p class="card-text">Photography isn’t the only way to capture the world, but it
+                                            certainly is one of the most effective. Look no further than the nearest
+                                            social
+                                            media feed, news station, magazine article, or book cover to see it –
+                                            photographs have power.</p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- card section -->
+                        </div>
+
+                        <!-- 6th card -->
+                        <div class="card mb-3    border border-2 container-fluid" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assienment-3--bootstrap-responsive/images/course/course-6.png"
+                                        class="img-fluid img-fluid h-100 w-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motion graphics</h5>
+                                        <p class="card-text">Motion graphics (sometimes mograph) are pieces of animation
+                                            or
+                                            digital footage which create the illusion of motion or rotation, and are
+                                            usually
+                                            combined with audio for use in multimedia projects.</p>
+                                        <h5 class="card-text text-primary"> price:20$ </h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- card section -->
+                        </div>
+
+
+                        <h3 class="btn btn-primary">Explore all</h3>
+
+
+
+
+                    </div>
+                    <!-- explore the eleartning institute -->
+
+                    <br>
+                    <br>
+                    <br>
+
+
+
+                </div>
+
+            </section>
+
+        </div>
+        <!-- <new section start></new>
+        explore the eleaning institue
+        -->
+        <div id="Success" class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./assienment-3--bootstrap-responsive/images/working.png"
+                        class="img-fluid rounded-start h-100 w-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title">Explore the elearning institue</h1>
+                        <p class="card-text">The eLearning Institute is a virtual destination for professionals in
+                            various arenas of higher education to meet ongoing professional development needs and to
+                            gain access to the most current research in academe.</p>
+                        <p>
+
+
+                            Is there funding?
+                            Funding of $500 will be available to faculty who complete the program activities, which
+                            includes an orientation, checkpoints, self review and meeting with a faculty mentor.
+
+                    </div>
+                    <div class="followers d-flex">
+                        <h3 class="box col-md-4 col-lg-4 col-sm-6">
+                            3.2k+
+                            <p>online course</p>
+                        </h3>
+                        <h3 class="box col-md-4 col-lg-4 col-sm-6">
+                            6.2k+
+                            <p>Expert Member
+                            </p>
+                        </h3>
+                        <h3 class="box col-sm-12 col-md-4 col-lg-4 col-sm-6">
+                            1.2k+
+                            <p>Rating & review</p>
+
+                        </h3>
+                    </div>
+                    </p>
+                    <h3 class="btn btn-primary m-5 d-grid gap-2">Read More</h3>
+                </div>
+            </div>
+        </div>
+        <!-- ready to join -->
+        <section class="ready mt-5 container border bg-primary w-100  border rounded">
+            <div class="row p-3 mx-auto rounded ">
+                <div class="col-md-6 col-sm-12 justify-content-center align-items-center text-white">
+                    <h1>Ready to join?</h1>
+                    <p>This is for faculty who want to work on actually building a course and receive feedback. To
+                        benefit the most from the program, faculty should choose a course they have full control of to
+                        build in Canvas where they can incorporate the best practices from the program and have their
+                        course ready to launch at the end.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center align-item-center mt-5 mx-auto p-3 m-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        REGISTRATION
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- frequently asked question -->
+        <section class="accordion" id="fuq">
+            <div class="courses p-5">
+                <div class="wpart d-flex flex-column justify-content-center align-items-center">
+                    <h1>Frequently Asked Question
+                    </h1>
+
+                    <p>Here are the question people are worried about and want to know from us.check out this.
+
+                    </p>
+                    <div class="fq" id="">
+                        <div class="accordion " id="accordionExample">
+                            <div class="accordion-item ">
+                                <h2 class=" accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        How do I get start? what do you need from me?What is the range of your course?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>You just need a laptop and the patience of learning something new.
+                                        </strong> You must at least have an idea of what kind of design or theme you are
+                                        looking for. If you don't, I can suggest something related to your business and
+                                        target group which we can work from.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        What will be the time?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is depend on you.</strong>you will get 48 hours to complete the
+                                        module and you whave to give a quiz and a assienment after every module
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Can you provide certificate after complete this course?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Yes off course we provide certificate after completeing this course
+                                            according to your orogress and you wiull share this anywhere on linkedin or
+                                            faceebook
+                                            or any social media platform.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="students-feedback">
+            <h1>Meet our Succesful <br>students</h1>
+            <div class="st-card mt-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./assienment-3--bootstrap-responsive/images/student/student-1.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body border border-4">
+                                <h5 class="card-title">Ahmed Faisal</h5>
+                                <p class="card-text">ui/ux designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./assienment-3--bootstrap-responsive/images/student/student-4.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body border border-4">
+                                <h5 class="card-title">Tanisha mouchak</h5>
+                                <p class="card-text">Front-end devoleper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./assienment-3--bootstrap-responsive/images/student/student-3.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body border border-4">
+                                <h5 class="card-title">Hd Ridoy</h5>
+                                <p class="card-text">Data science engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary" type="button">More...</button>
+
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </section>
+    <section class="container mt-5 col-lg-14  ">
+        <h1 class="d-flex flex-column justify-content-center align-items-center">Trusted by over 800+ companies</h1>
+        <div class="container d-none d-lg-block mt-5 p-5 ">
+            <div class="container d-flex">
+                <img class="container-fluid  " src="./assienment-3--bootstrap-responsive/images/company/company-1.png"
+                    alt="" srcset="">
+                <img class="container-fluid " src="./assienment-3--bootstrap-responsive/images/company/company-2.png"
+                    alt="" srcset="">
+                <img class="container-fluid " src="./assienment-3--bootstrap-responsive/images/company/company-3.png"
+                    alt="" srcset="">
+                <img class="container-fluid " src="./assienment-3--bootstrap-responsive/images/company/company-4.png"
+                    alt="" srcset="">
+                <img class="container-fluid " src="./assienment-3--bootstrap-responsive/images/company/company-5.png"
+                    alt="" srcset="">
+                <img class="container-fluid " src="./assienment-3--bootstrap-responsive/images/company/company-6.png"
+                    alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>

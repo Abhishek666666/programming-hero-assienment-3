@@ -1,0 +1,25 @@
+.carousel-item>img {
+
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+
+
+
+}
+
+.card {
+
+    border-style: none;
+}
+
+.box {
+    padding: 15px;
+}
+
+
+
+/* .carousel-caption {
+    bottom: .25rem;
+} */
