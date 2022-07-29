@@ -1,3 +1,14 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* commonstyle */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .carousel-item>img {
 
     height: 80vh;
@@ -16,6 +27,11 @@
 
 .box {
     padding: 15px;
+}
+
+footer {
+    height: 40vh;
+    font-size: 2vh;
 }
 
 
